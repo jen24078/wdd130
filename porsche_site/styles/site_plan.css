@@ -150,12 +150,12 @@ nav a:hover {
 	line-height: 3em;
 }
 .sm-page2 {
-	grid-area: page2;
+	grid-area: 911;
 	background-color: #ccc;
 	line-height: 3em;
 }
 .sm-page3 {
-	grid-area: page3;
+	grid-area: contact;
 	background-color: #ccc;
 	line-height: 3em;
 }
