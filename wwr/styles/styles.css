@@ -473,6 +473,21 @@ textarea:focus {
 	cursor: pointer;
 }
 
+#feedback {
+	background-color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0.5em;
+	display: none;
+	text-align: center;
+	font-size: 1.2em;
+}
+.moveDown {
+	margin-top: 3em;
+}
+
 @media screen and (max-width: 900px) {
 	#hero,
 	.home-grid {
