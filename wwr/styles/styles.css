@@ -411,6 +411,68 @@ footer .social img {
 	margin: 0;
 }
 
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.contactus {
+	font-family: sans-serif;
+	background-color: white;
+	padding: 2rem;
+	color: #08415c;
+}
+
+.contact-form {
+	max-width: 500px;
+	margin: auto;
+	background-color: #fff;
+	padding: 2rem;
+	border-radius: 8px;
+}
+
+#us {
+	text-align: center;
+	margin-bottom: 1.5rem;
+	color: #08415c;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+input,
+textarea {
+	margin-bottom: 1.5rem;
+	padding: 0.75rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font: inherit;
+}
+
+input:focus,
+textarea:focus {
+	border-color: #08415c;
+	outline: none;
+}
+
+.message {
+	background-color: #08415c;
+	color: white;
+	border: none;
+	padding: 0.75rem;
+	font-size: 1rem;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
 @media screen and (max-width: 900px) {
 	#hero,
 	.home-grid {
