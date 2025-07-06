@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap");
+
+body {
+	background-color: white;
+	font-family: "Oswald", Open Sans;
+	font-size: 22px;
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	max-width: 100%;
+	margin: 0;
+}
+
+header {
+	background-color: #657153;
+	display: grid;
+	grid-template-columns: 150px auto;
+	align-items: center;
+	width: 100%;
+}
+
+.logo {
+	width: 100px;
+}
+
+#logo_link {
+	padding-top: 5px;
+	justify-self: center;
+	align-self: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #8aaa79;
+	color: white;
+	text-decoration: none;
+}
+
+.hero {
+	/* display: grid;
+	grid-template-columns: 1fr 3fr 1fr; */
+	background-color: #aa936f;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.hero-box {
+	/* grid-column: 1/4;
+	grid-row: 1/3; */
+	background-color: #657153;
+	color: white;
+	padding: 10px;
+	margin: 20px auto;
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+.home-grid {
+	background-color: #aa936f;
+}
+
+.hero-img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.hero-box h1 {
+	font-size: 2.5em;
+	margin-top: 10px;
+	color: white;
+	padding-top: 5px;
+}
+
+.hero-msg h1 {
+	font-size: 2.5em;
+	margin-top: 10px;
+	color: white;
+}
+
+.hero-msg h2 {
+	font-size: 1.5em;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.button-box {
+	text-align: center;
+	margin-top: 60px;
+	text-decoration: none;
+}
+
+.begin {
+	background-color: #657153;
+	color: white;
+	padding: 20px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.begin:hover {
+	background-color: #8aaa79;
+	color: white;
+}
+
+.home_img {
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+
+footer {
+	background-color: #657153;
+	color: white;
+	text-align: center;
+	padding: 25px 50px;
+	margin-top: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer p {
+	margin: 5px 0;
+	text-align: left;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+footer .social img {
+	width: 40px;
+	height: 40px;
+}
